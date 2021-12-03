@@ -8,7 +8,7 @@ namespace TP_1
         {
             for (int x = -3; x<=3; x++)
             {
-                double result = 0.0;
+                int result = 0;
                 try
                 {
                     result = 10 / (x * x - 4);

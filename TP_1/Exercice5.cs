@@ -41,15 +41,18 @@ namespace TP_1
                     int start = 1;
                     int spaces = size - 1;
                     int end = 3;
+                    //70% of 'i' and 30% of 'i'
                     Random rnd = new Random();
                     string[] decoration =
                     {
                         "i", "o", "i", "o", "i",
                         "i", "i", "o", "o", "i", "i"
                     };
-
-
+                    
+                    // First line
                     Console.WriteLine("".PadLeft(size) + "*");
+                    
+                    // Lines in the middle
                     for (int a = 2; a <= size; a++)
                     {
                         for (int z = 1; z <= spaces; z++)
@@ -85,6 +88,8 @@ namespace TP_1
                         decoration_position = new List<int>();
                     }
                 }
+                
+                // Last Line
                 Console.WriteLine("|".PadLeft(size) + " " + "|");
             }
             // Exceptions

@@ -6,7 +6,7 @@ namespace TP_1
     {
         public static void Main(string[] args)
         {
-            /*
+            
             Exercice1 exercice1 = new Exercice1();
             exercice1.Multiplication();
             exercice1.Odd_result();
@@ -28,7 +28,7 @@ namespace TP_1
             
             Exercice4 exercice4 = new Exercice4();
             exercice4.Square();
-            */
+            
             Exercice5 exercice5 = new Exercice5();
             exercice5.Chrismas_tree();
         }
